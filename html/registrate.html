@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrate</title>
+    <link rel="stylesheet" href="/styles/registrate.css">
+    <link rel="shortcut icon" href="/img/logo-pex.png" type="image/png">
+</head>
+<body>
+    <section id="formulario-registrate">
+        <img src="/img/logo-pex.png" alt="Logo" id="logo">
+        <form action="/website/html/registro_exitosamente.html" method="get">
+
+            <h2>Registra tu cuenta</h2>
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+        
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="successMessage" style="display:none; color: green;">¡Registro exitoso!</p> <!-- Mensaje de éxito -->
+    </section>
+    <script src="JAVA/script.js"></script>
+</body>
+</html>
